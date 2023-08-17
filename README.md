@@ -8,7 +8,7 @@ AutoLISP routine that trims inside a selection of circles
 
 Tabs are created as follows:
 
-Where for each object inside a circle in a layer of circles ,of diameter equal to the needed tab, placed concidentaly where the tabs are need; is trimmed. 
+Where for each object inside a circle in a layer of circles ,of diameter equal to the needed tab, placed coincidentally where the tabs are need; is trimmed. 
 This task was highly time consuming for some files have hundreds of tabs. Thus, I have wrote this routine to automate this task.
 
 
