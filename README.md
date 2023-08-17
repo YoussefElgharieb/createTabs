@@ -22,7 +22,7 @@ This routine was created to automate a specific use case of ***creating tabs*** 
 
 2. objects must pass through the centre of the circles.
   - How to modify this limitation?
-    - change `0.075` lines 11,12,15,16_
+    - change `0.075`  *lines 11,12,15,16*
       1.  to any value smaller than the radius of the smallest circle in the selection 
       2.  to the radius of the _i<sup>th</sup>_ circle in the selection
      
