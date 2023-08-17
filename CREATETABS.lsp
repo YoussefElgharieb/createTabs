@@ -1,0 +1,20 @@
+(defun c:createtabs()
+	(setq circles (ssget))
+	(setq n (sslength circles))
+  
+ 	(setq i 0)
+	( while ( < i n)
+		(setq circle(ssname circles i))
+		(setq circleData (entget circle))
+		(setq center (cdr (assoc 10 circleData)))
+	  
+		(setq right (polar center 0 0.075))
+		(setq left ( polar center pi 0.075))
+		(command "trim" circle "" "f" left right "" "")
+	  
+	  	(setq up (polar center (/ pi 2) 0.075))
+		(setq down ( polar center (-(/ pi 2)) 0.075))
+		(command "trim" circle "" "f" up down "" "")
+		(setq i (+ i 1))
+  	)
+)
