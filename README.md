@@ -14,7 +14,7 @@ This task was highly time consuming for some files have hundreds of tabs. Thus, 
 
 
 ## limitations
-This routine was created to automate a specific use case of ***creating tabs*** as effiently as possible. Thus, there are the following limitations for geTeral use.
+This routine was created to automate a specific use case of ***creating tabs*** as effiently as possible. Thus, there are the following limitations for general use.
 
 1. the rountine expects only circles in the the selection
   - How to modify this limitation?
