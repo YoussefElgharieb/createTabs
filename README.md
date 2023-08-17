@@ -4,13 +4,14 @@
 trims inside a selection of circles
 
 ## current limitation
-1. the rountine expects only circles in the the selection
+this routine was created for a specific task thus there are the following limitation for general use.
 
+1. the rountine expects only circles in the the selection
 2. objects must pass through the centre of the circles.
   - How to modify this limitation?
-    - change `0.075` on lines 10,12,16,17 
+    - change `0.075` lines 10,12,15,16_
       1.  to any value smaller than the radius of the smallest circle in the selection 
-      2.  to the radius of the i<sup>th</sup> circle in the selection
+      2.  to the radius of the _i<sup>th</sup>_ circle in the selection
 
 
 
