@@ -4,7 +4,7 @@
 AutoLISP routine that trims inside a selection of circles
 
 ## motivation & usage
-***Creating tabs*** is a step in the process of preping CAD files for cutting on the laser machine which is repeated everytime a parameter in the process is changed; mainly the material thickness. 
+***Creating tabs*** is a step in the process of prepping CAD files for cutting on the laser machine which is repeated every time a parameter in the process is changed; mainly the material thickness. 
 
 Tabs are created as follows:
 
